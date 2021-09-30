@@ -1,6 +1,10 @@
 import Button from './Button';
 import Property from './Property';
 import about from '../pictures/about.jpg';
+import {
+    MdKeyboardArrowLeft,
+    MdKeyboardArrowRight
+} from 'react-icons/md'
 
 const Trending = () => {
 
@@ -34,12 +38,12 @@ const Trending = () => {
                     <Button
                         type="disable"
                     >
-                        left
+                        <MdKeyboardArrowLeft className="text-white" size="32px" />
                     </Button>
                     <Button
                         type="primary"
                     >
-                        right
+                        <MdKeyboardArrowRight className="text-white" size="32px" />
                     </Button>
                 </div>
 

@@ -2,6 +2,7 @@
   "name": "web_challenge",
   "version": "0.1.0",
   "private": true,
+  "homepage": "islam36.github.io/web_challenge",
   "dependencies": {
     "@craco/craco": "^6.3.0",
     "@testing-library/jest-dom": "^5.14.1",
