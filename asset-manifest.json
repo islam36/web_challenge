@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/islam36.github.io/web_challenge/static/css/main.355fdf82.chunk.css",
+    "main.js": "/islam36.github.io/web_challenge/static/js/main.715fdf4e.chunk.js",
+    "main.js.map": "/islam36.github.io/web_challenge/static/js/main.715fdf4e.chunk.js.map",
+    "runtime-main.js": "/islam36.github.io/web_challenge/static/js/runtime-main.77e68907.js",
+    "runtime-main.js.map": "/islam36.github.io/web_challenge/static/js/runtime-main.77e68907.js.map",
+    "static/js/2.012bd921.chunk.js": "/islam36.github.io/web_challenge/static/js/2.012bd921.chunk.js",
+    "static/js/2.012bd921.chunk.js.map": "/islam36.github.io/web_challenge/static/js/2.012bd921.chunk.js.map",
+    "static/js/3.b671099c.chunk.js": "/islam36.github.io/web_challenge/static/js/3.b671099c.chunk.js",
+    "static/js/3.b671099c.chunk.js.map": "/islam36.github.io/web_challenge/static/js/3.b671099c.chunk.js.map",
+    "index.html": "/islam36.github.io/web_challenge/index.html",
+    "static/css/main.355fdf82.chunk.css.map": "/islam36.github.io/web_challenge/static/css/main.355fdf82.chunk.css.map",
+    "static/js/2.012bd921.chunk.js.LICENSE.txt": "/islam36.github.io/web_challenge/static/js/2.012bd921.chunk.js.LICENSE.txt",
+    "static/media/about.f6c91a12.jpg": "/islam36.github.io/web_challenge/static/media/about.f6c91a12.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.77e68907.js",
+    "static/js/2.012bd921.chunk.js",
+    "static/css/main.355fdf82.chunk.css",
+    "static/js/main.715fdf4e.chunk.js"
+  ]
+}
