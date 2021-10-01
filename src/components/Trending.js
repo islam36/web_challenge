@@ -1,10 +1,11 @@
 import Button from './Button';
 import Property from './Property';
-import about from '../pictures/about.jpg';
 import {
     MdKeyboardArrowLeft,
     MdKeyboardArrowRight
-} from 'react-icons/md'
+} from 'react-icons/md';
+
+const about = 'https://images.unsplash.com/photo-1570129477492-45c003edd2be?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=870&q=80';
 
 const Trending = () => {
 

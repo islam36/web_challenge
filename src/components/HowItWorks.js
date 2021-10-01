@@ -1,5 +1,8 @@
+import { FaSearch, FaStar, FaHeart } from 'react-icons/fa';
+import { RiShieldCheckFill } from 'react-icons/ri';
+
 const Card = ({
-    icon,
+    Icon,
     title,
     text,
     color,
@@ -8,8 +11,8 @@ const Card = ({
     return (
         <div className={`w-64 h-64 p-4 flex flex-col gap-3 rounded-lg bg-white shadow-lg`}>
             <div className="flex flex-row gap-4">
-                <div className={`w-16 h-14 bg-${color} rounded-sm`}>
-                    {icon}
+                <div className={`w-16 h-14 bg-${color} rounded-sm flex justify-center items-center`}>
+                    <Icon className={`text-white`} size="28px" />
                 </div>
                 <p className="font-bold text-base text-left text-black capitalize">{title}</p>
             </div>
@@ -24,28 +27,28 @@ const Card = ({
 const HowItWorks = () => {
     const cardsContent = [
         {
-            icon: null,
+            Icon: FaSearch,
             title: 'Search your demanding house',
             text: 'The better impression it would make. An agency, in board terms, is any relationship between two parties.',
             color: 'gray-900',
             link: '#'
         },
         {
-            icon: null,
+            Icon: FaStar,
             title: 'our best home features',
             text: 'The better impression it would make. An agency, in board terms, is any relationship between two parties.',
             color: 'blue-400',
             link: '#'
         },
         {
-            icon: null,
+            Icon: RiShieldCheckFill,
             title: 'book your dream house property',
             text: 'The better impression it would make. An agency, in board terms, is any relationship between two parties.',
             color: 'yellow-400',
             link: '#'
         },
         {
-            icon: null,
+            Icon: FaHeart,
             title: 'enjoy your new place with family',
             text: 'The better impression it would make. An agency, in board terms, is any relationship between two parties.',
             color: 'purple-600',

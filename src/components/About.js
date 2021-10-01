@@ -1,10 +1,9 @@
-import pic from '../pictures/about.jpg';
 import Button from './Button';
+const pic = 'https://images.unsplash.com/photo-1570129477492-45c003edd2be?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=870&q=80';
 
 const About = () => {
     return (
         <section id="about" className="w-full bg-white flex flex-col md:flex-row p-12">
-            {/* picture */}
             <div className="w-full mb-14 md:mb-0 md:w-1/2 relative mr-12">
                 <div className="rounded-r-3xl overflow-hidden">
                     <img src={pic} alt="house"/>
@@ -12,7 +11,6 @@ const About = () => {
 
             </div>
 
-            {/* content */}
             <div className="w-full md:w-1/2 flex flex-col">
                 <div className="text-lg font-semibold text-blue-500 mb-4">About us</div>
                 <h1 className="font-bold text-3xl capitalize text-black mb-4">we are providing the top <span className="text-blue-500">real state</span> property</h1>

@@ -9,7 +9,7 @@ const Button = ({type, children, className, ...rest}) => {
 
     return (
         <button
-            className={`text-base py-2 px-8 ${typeClass} ${className}`}
+            className={`text-base py-2 px-8 max-w-xs ${typeClass} ${className}`}
             {...rest}
         >
             {children}
